@@ -10,5 +10,5 @@ router.register(r"habits", HabitsViewSet, basename="habits")
 
 urlpatterns = [
     path("user-habits-list/", UserHabitViewSet.as_view(), name="user_habits_list"),
-    path("list-published/", UserHabitViewSet.as_view(), name="user_habits_list_published"),
+    path("user-habits-list-published/", UserHabitViewSet.as_view(), name="user_habits_list_published"),
 ] + router.urls
