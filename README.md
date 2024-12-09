@@ -10,6 +10,8 @@ Docker-compose stop (остановка контейнеров)
 
 Docke system prune -a (удалить все контейнеры)
 
+
+
 БЕЗ Dockera
 1.Клонируйте проект
 
