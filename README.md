@@ -1,5 +1,13 @@
 Курсовая работа №7 (DRF):
 
+Если запускаешь ч/з docker
+1.клонируйте проект
+2.введите команду (Docker-compose up -d --build)
+
+Docker-compose stop (остановка контейнеров)
+Docke system prune -a (удалить все контейнеры)
+
+БЕЗ Dockera
 1.Клонируйте проект
 
 2,После клонирования введите команду в консоли в папке проекта: (python -m venv venv; затем venv/scripts/activate)
